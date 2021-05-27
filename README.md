@@ -44,5 +44,8 @@
   Also feel free to shoot me an email @brgerner@gmail.com
   
   ## Screenshots
-  
+  <img width="1048" alt="Screen Shot 2021-05-27 at 12 18 38 PM" src="https://user-images.githubusercontent.com/79947732/119884834-f1e46f00-bee5-11eb-8f47-089d43a30654.png">
+  <img width="1048" alt="Screen Shot 2021-05-27 at 12 19 14 PM" src="https://user-images.githubusercontent.com/79947732/119884893-ff99f480-bee5-11eb-8016-9ca4e0f8ea9f.png">
+<img width="1049" alt="Screen Shot 2021-05-27 at 12 19 26 PM" src="https://user-images.githubusercontent.com/79947732/119884901-01fc4e80-bee6-11eb-97ce-4102f643ad77.png">
+
   
