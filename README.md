@@ -15,8 +15,8 @@
   * [Usage](#usage)
   * [License](#license)
   * [Contributing](#contributing)
-  * [Tests](#tests)
   * [Questions](#questions)
+  * [Screenshots](#screenshots)
   
   
   ## Installation
