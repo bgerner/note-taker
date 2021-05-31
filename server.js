@@ -5,7 +5,6 @@ const path = require('path');
 const PORT = process.env.PORT || 3001;
 const db = require('./db/db.json');
 const { v4: uuidv4 } = require('uuid');
-const { deepStrictEqual } = require('assert');
 
 // use with express
 app.use(express.urlencoded({ extended: true }));
@@ -35,20 +34,19 @@ app.post('/api/notes', (req, res) => {
     res.json(newNote);
 });
 
-// app.delete('/api/notes/:id', (req, res) => {
-//     const id = req.params.id
-//     for (let i = 0; i < db.length; i++) {
-//         if (id === db[i].id) {
-//             db.splice(db[i])
-//             fs.writeFileSync(
-//                 path.join(__dirname, 'db', 'db.json'),
-//                 JSON.stringify(db, null, 2)
-//             );
-//         }
-//         return
-//     }
-//     res.json(db);
-// })
+app.delete('/api/notes/:id', (req, res) => {
+    const id = req.params.id;
+    for (let i = 0; i < db.length; i++) {
+        if (id === db[i].id) {
+            db.splice(i, 1);
+            fs.writeFileSync(
+                path.join(__dirname, 'db', 'db.json'),
+                JSON.stringify(db, null, 2)
+            );
+        }
+    }
+    res.json(db);
+})
 
 app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'index.html'))
