@@ -7,14 +7,13 @@
   ## Description 
 
   This application interacts with the server to display previously created notes. 
-  Newly created notes are uploaded to the server.
+  Newly created notes are uploaded to the server and notes can be deleted from the server.
 
   ## Table of Contents
   
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Contributing](#contributing)
   * [Questions](#questions)
   * [Screenshots](#screenshots)
   
@@ -32,10 +31,6 @@
   ### [GPL-3.0 License](https://choosealicense.com/licenses/gpl-3.0/)
 
   Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights.
-    
-  ## Contributing
-
-  Help me finish 'app.delete' functionality in server.js
   
   ## Questions
 
